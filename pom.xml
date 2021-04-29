@@ -14,6 +14,7 @@
         <module>03-transactional-producer</module>
         <module>04-pos</module>
         <module>05-producer-callback</module>
+        <module>06-consumer-json</module>
     </modules>
 
     <properties>
