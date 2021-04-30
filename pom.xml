@@ -18,6 +18,7 @@
         <module>07-hello-streams</module>
         <module>08-json-to-pojo</module>
         <module>09-avro-to-pojo</module>
+        <module>10-avro-producer</module>
     </modules>
 
     <properties>
