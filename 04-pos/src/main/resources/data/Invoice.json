@@ -14,7 +14,7 @@
 		"CGST": 0,
 		"SGST": 0,
 		"CESS": 0,
-		"DeliveryType": "HOME-DELIVERY"
+		"DeliveryType": "OHOME-DELIVERY"
 	},
 	{
 		"InvoiceNumber": 0,

@@ -1,8 +1,7 @@
-package net.example.serdes;
+package org.example.serdes;
 
-import com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer;
-import net.example.types.DeliveryAddress;
-import net.example.types.PosInvoice;
+import org.example.types.DeliveryAddress;
+import org.example.types.PosInvoice;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 

@@ -20,6 +20,7 @@
         <module>09-avro-to-pojo</module>
         <module>10-avro-producer</module>
         <module>11-avro-streams</module>
+        <module>12-state-store</module>
     </modules>
 
     <properties>

@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "net.example.types.DeliveryAddress",
+  "javaType": "org.example.types.DeliveryAddress",
   "properties": {
     "AddressLine": {"type": "string"},
     "City": {"type": "string"},

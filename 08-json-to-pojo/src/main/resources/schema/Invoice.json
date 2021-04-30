@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "net.example.types.Invoice",
+  "javaType": "org.example.types.Invoice",
   "properties": {
     "InvoiceNumber": {"type": "string"},
     "CreatedTime": {"type": "object", "javaType": "java.lang.Long"},

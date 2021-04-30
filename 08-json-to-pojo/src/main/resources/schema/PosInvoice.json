@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "net.example.types.PosInvoice",
+  "javaType": "org.example.types.PosInvoice",
   "extends": {"$ref": "Invoice.json"},
   "properties": {
     "StoreID": {"type": "string"},
