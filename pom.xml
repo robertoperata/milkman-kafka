@@ -19,6 +19,7 @@
         <module>08-json-to-pojo</module>
         <module>09-avro-to-pojo</module>
         <module>10-avro-producer</module>
+        <module>11-avro-streams</module>
     </modules>
 
     <properties>
