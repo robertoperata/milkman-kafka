@@ -41,7 +41,8 @@ public class RewardsApp{
 
         builder.addStateStore(kvStoreBuilder);
 
-        ks0.transformValues(() -> new RewardsTransformer(), AppConfig.REWARDS_STORE_NAME)
+        ks0.through(AppConfig.REWARDS_TEMP_TOPIC, Produced.with(AppSerdes.String(), AppSerdes.PosInvoice(), new RewardsPartitioner()))
+            .transformValues(() -> new RewardsTransformer(), AppConfig.REWARDS_STORE_NAME)
            .to(AppConfig.notificationTopic,
                Produced.with(AppSerdes.String(), AppSerdes.Notification()));
 

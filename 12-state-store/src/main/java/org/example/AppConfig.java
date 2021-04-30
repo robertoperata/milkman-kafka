@@ -9,4 +9,5 @@ public class AppConfig {
     final static String CUSTOMER_TYPE_PRIME = "PRIME";
     final static Double LOYALTY_FACTOR = 0.02;
     final static String REWARDS_STORE_NAME = "CustomerRewardsStore";
+    final static String REWARDS_TEMP_TOPIC = "CustomerRewardsTemp";
 }
